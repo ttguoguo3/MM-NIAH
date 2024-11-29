@@ -1,6 +1,6 @@
 import re
 import json
-
+import os
 
 def has_word(sentence, word):
     pattern = r'\b' + re.escape(word) + r'\b'
